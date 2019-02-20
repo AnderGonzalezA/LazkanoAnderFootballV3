@@ -1,31 +1,13 @@
-public class Player {
-	
-	private String playerName;
-	private int age;
-	private String teamName;
-	
-	public String getPlayerName() {
-		return this.playerName;
-	}
-	
-	public void setPlayerName(String PlayerName) {
-		this.playerName=PlayerName;
-	}
 
-	public String getTeamName() {
-		return this.teamName;
-	}
-	
-	public void setTeamName(String TeamName) {
-		this.teamName=TeamName;
-	}
+public abstract class Player {
+	protected String playerName = "";
+	protected int age = 0;
 
-	public int getAge() {
-		return this.age;
-	}
-	
-	public void setAge(int Age) {
-		this.age=Age;
-	}
-	
+	public abstract String getPlayerName();
+
+	public abstract void setPlayerName(String PlayerName);
+
+	public abstract int getAge();
+
+	public abstract void setAge(int Age);
 }
