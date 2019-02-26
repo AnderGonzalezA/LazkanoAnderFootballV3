@@ -4,7 +4,7 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 import java.util.ListIterator;
 
-public class PlayerTeamFootballMatch {
+public class Interface {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		// We create an empty ArrayList object of ArrayList type (that will be of
